@@ -268,7 +268,7 @@ async def extract_easy_apply_fields(
             print("     ⚠️  Easy Apply button not found on detail page.")
             return []
 
-        await easy_apply_btn.click()
+        await easy_apply_btn.click(delay=127)
         await _human_delay(1.5, 2.5)
 
         try:
@@ -306,7 +306,7 @@ async def extract_easy_apply_fields(
                 print(f"     ✅  Reached submit/review step — not submitting.")
                 break
 
-            await next_btn.click()
+            await next_btn.click(delay=129)
             await _human_delay(1.0, 2.0)
             step += 1
 
@@ -321,7 +321,7 @@ async def extract_easy_apply_fields(
                 "[data-test-modal-close-btn]"
             )
             if dismiss_btn:
-                await dismiss_btn.click()
+                await dismiss_btn.click(delay=131)
                 await _human_delay(0.5, 1.0)
 
                 discard_btn = await page.query_selector(
@@ -329,7 +329,7 @@ async def extract_easy_apply_fields(
                     "button:has-text('Discard')"
                 )
                 if discard_btn:
-                    await discard_btn.click()
+                    await discard_btn.click(delay=130)
         except Exception:
             pass
 

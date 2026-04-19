@@ -151,7 +151,7 @@ async def search_jobs(
                     break
 
                 try:
-                    await card.click()
+                    await card.click(delay=127)
                     await asyncio.sleep(random.uniform(1.0, 2.0))
 
                     title_el = await page.query_selector(
@@ -200,7 +200,7 @@ async def search_jobs(
                         )
                         if ext_btn:
                             async with page.expect_popup() as popup_ctx:
-                                await ext_btn.click()
+                                await ext_btn.click(delay=127)
                             popup = await popup_ctx.value
                             await popup.wait_for_load_state("networkidle")
                             external_url = popup.url
