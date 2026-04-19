@@ -1,0 +1,28 @@
+search:
+  keywords:
+    - "AI Engineer"
+  location: "Egypt"
+  remote: false
+  easy_apply_only: false
+  date_posted: "week"
+  experience_levels:
+    - "mid"
+    - "senior"
+  job_types:
+    - "full_time"
+  max_jobs: 1
+
+scraper:
+  headless: false
+  slow_mo_ms: 150
+  page_timeout_ms: 30000
+  between_jobs_delay:
+    min: 3
+    max: 7
+  between_pages_delay:
+    min: 4
+    max: 9
+
+output:
+  dir: "output"
+  one_file_per_job: true
