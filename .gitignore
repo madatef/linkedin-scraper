@@ -21,6 +21,9 @@ wheels/
 .installed.cfg
 *.egg
 
+# CLaude settings
+.claude
+
 # Virtual environments
 .venv/
 venv/
