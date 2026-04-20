@@ -3,7 +3,7 @@ search:
     - "AI Engineer"
   location: "Egypt"
   remote: false
-  easy_apply_only: false
+  easy_apply_only: true
   date_posted: "week"
   experience_levels:
     - "mid"
