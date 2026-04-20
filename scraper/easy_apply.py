@@ -286,6 +286,16 @@ async def extract_easy_apply_fields(
         while step <= max_steps:
             await _human_delay(0.8, 1.5)
 
+            await page.wait_for_selector(
+                ".artdeco-modal__content, .jobs-easy-apply-modal__content",
+                timeout=10000
+            )
+            app_form = page.locator(".artdeco-modal__content, .jobs-easy-apply-modal__content").locator("form")
+            form_html = await app_form.inner_html()
+            with open("form.html", "a") as f:
+                f.write("<!---->\n" * 3 + f"step: {step}")
+                f.write(form_html)
+
             step_fields = await _extract_fields_from_step(page, step)
             all_fields.extend(step_fields)
             print(f"     📋  Step {step}: {len(step_fields)} field(s) extracted")
