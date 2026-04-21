@@ -1,0 +1,149 @@
+contact_info:
+  name: Mohammad Atef Diab
+  location: Cairo, Egypt
+  phone: "+201028698199"
+  email: itsmadatef@gmail.com
+  linkedin: linkedin.com/in/madatef
+  github: github.com/madatef
+
+professional_summary: >
+  Full-stack and AI engineer with 4 years of experience building AI-native SaaS platforms
+  and automation systems that turn data and business workflows into intelligent actions.
+  Experienced in Python and TypeScript ecosystems, developing production applications
+  with React, Node.js, FastAPI, and modern LLM frameworks such as LangChain and LangGraph.
+  Built and shipped multiple AI systems including multi-agent workflow automation,
+  enterprise internal tools reducing manual task time by 15 minutes per task, and a RAG
+  architecture achieving 94% retrieval accuracy on complex tabular data. Focused on
+  designing reliable AI systems that augment operations and scale across real-world products.
+
+skills:
+  programming_languages:
+    - Python
+    - JavaScript
+    - TypeScript
+    - Bash
+  frontend_backend:
+    - React
+    - Tailwind
+    - Vite
+    - Node.js
+    - Express.js
+    - FastAPI
+    - Uvicorn
+  ai_technologies:
+    - Keras
+    - PyTorch
+    - Scikit-learn
+    - Hugging Face
+    - LLM APIs
+    - OpenCV
+    - MediaPipe
+  databases_vector_stores:
+    - MongoDB
+    - PostgreSQL
+    - Qdrant
+    - Pinecone
+    - Weaviate
+    - FAISS
+    - DuckDB
+  infrastructure:
+    - Celery
+    - Redis
+    - Docker
+    - AWS S3
+    - AWS EC2
+    - SQLAlchemy
+    - Alembic
+    - Prisma
+
+professional_experience:
+  - title: AI Engineer and Product Owner
+    company: Cloudilic
+    location: Cairo, Egypt
+    start_date: Jan 2025
+    end_date: Feb 2026
+    responsibilities:
+      - Led transition from RPA to APA using multi-agent orchestration
+      - Designed RAG tools for tabular data outperforming competitors
+      - Integrated AI APIs, CRMs, databases, and dashboards with LangChain agents
+      - Reduced manual tasks by ~15 minutes per task
+      - Scaled system to 100+ users and processed 50+ enterprise databases
+
+  - title: AI Trust & Safety Reviewer
+    company: Outlier
+    location: Remote
+    start_date: Oct 2023
+    end_date: Mar 2025
+    responsibilities:
+      - Reviewed ML/AI training data and outputs
+      - Improved model accuracy by 40–70%
+      - Contributed to training Meta AI on tool usage, PII handling, and safety behaviors
+      - Helped increase model accuracy to ~98%
+
+  - title: Frontend Engineer
+    company: Canonical
+    location: Remote
+    start_date: Jun 2023
+    end_date: Oct 2024
+    responsibilities:
+      - Improved UI and performance using client-side rendering
+      - Used React and headless UI libraries
+      - Achieved high Lighthouse scores (98% performance, 100% accessibility, etc.)
+
+projects:
+  - name: Inkris
+    stack:
+      - FastAPI
+      - React
+      - Vite
+      - LangChain
+    description: >
+      Document-based AI assistant that stores, processes, and enables Q&A over user files.
+      Integrates multiple AI tools such as web search, scraping, media generation,
+      and data retrieval.
+    repo: github.com/madatef/inkris
+
+  - name: Fire, Smoke, and Human Detection System
+    stack:
+      - OpenCV
+      - YOLOv8
+    description: >
+      Real-time detection system for fire, smoke, and humans using webcam/CCTV streams.
+      Triggers firefighting systems and sends alerts with timestamps and captured frames.
+    repo: github.com/madatef/fire-detection
+
+  - name: Creative Content Evaluation Tool
+    stack:
+      - Google Cloud Vision
+      - RAG
+      - React
+      - Vite
+      - Gemini 2.5 Flash
+    description: >
+      Internal tool for Saudi Tourism Authority campaign. Evaluates marketing content
+      against guidelines using a 15GB knowledge base and outputs structured reports.
+      Saved 1000+ hours and improved content quality.
+    repo: github.com/madatef/Content-evaluator
+
+education:
+  degree: B.Eng.
+  institution: Cairo University
+  location: Giza, Egypt
+  start_year: 2017
+  end_year: 2022
+
+additional_information:
+  languages:
+    - Arabic (Native)
+    - English (C1, IELTS 7.5, 2017)
+  volunteering:
+    - organization: IEEE CUSB
+      role: Programming Instructor
+      year: 2019
+    - organization: DOSS CLUB
+      role: Multimedia Vice-Head
+      year: 2018
+  publications:
+    - title: "On the classification of residue classes of integers of the form 10^n + 1 mod p"
+      journal: Electronic Journal of Mathematics
+      year: 2021
